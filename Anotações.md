@@ -5,16 +5,19 @@
   - Jdk é o kit de desenvolvimento java, nele temos a máquina virtual do java, e os atributos para compilar e executar.
   
 ## coonvençôes de variáveis 
-tipos de variáveis *int, double, char, byte, short, long, boolean* todas escritas em letras minúsculas.
+tipos de variáveis *int, double, float, char, byte, short, long, boolean* todas escritas em letras minúsculas.
 em variáveis com palavras compostas seguimos o padrão *variavelCompostaExemplo.*
 # Esttrutura básica para códigos em java:
 public class *nome da classe* {
-    public statis void main (String[] args){
-
-        
+    public statis void main (String[] args){ 
     }
 
 }
-
+- java doc 
+- Convenções de variáveis
+- para entrada temos o *import java.util.Scanner;* 
+usamos o Scanner *leitor = new Scanner(System.in);* 
+ para ler uma variável, fazemos *var* = leitor.nextTipo();
+ - Colocar o F no float 
 
 
