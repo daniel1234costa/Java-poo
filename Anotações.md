@@ -19,5 +19,16 @@ public class *nome da classe* {
 usamos o Scanner *leitor = new Scanner(System.in);* 
  para ler uma variável, fazemos *var* = leitor.nextTipo();
  - Colocar o F no float 
+ import java.util.Scanner;
+public class Questão10 {
+    public static void main (String[] args){
+        Scanner leitor = new Scanner(System.in);
+        
+        leitor.close();
+
+    }
+    
+}
+
 
 
