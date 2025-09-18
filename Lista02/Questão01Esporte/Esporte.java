@@ -1,5 +1,4 @@
 package javapoo.Lista02.Questão01Esporte;
-
 public class Esporte {
 
     private String nomeEsporte;

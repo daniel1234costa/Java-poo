@@ -8,11 +8,11 @@
 tipos de variáveis *int, double, float, char, byte, short, long, boolean* todas escritas em letras minúsculas.
 em variáveis com palavras compostas seguimos o padrão *variavelCompostaExemplo.*
 ## Esttrutura básica para códigos em java:
-public class *nome da classe* {
+´´´´public class *nome da classe* {
     public statis void main (String[] args){ 
     }
 
-}
+}´´´´
 ### O que revisar
 - java doc 
 - Convenções de variáveis
@@ -24,11 +24,18 @@ usamos o Scanner *leitor = new Scanner(System.in);*
  - Colocar o F no float 
 
  ### Iniciando a oriientação a objetos
- - classes :
- uma calsse é a definição de um tipo específico de objetosk
- * tradicionalmente todas as classes inician com letras maiusculas ex: ClasseUrso
- - Atributos :
- * variável ou constante da classe
+ ##### classes :
+ - Uma calsse é a definição de um tipo específico de objetosk
+ - tradicionalmente todas as classes inician com letras maiusculas ex: ClasseUrso
+ ##### Atributos :
+ - variável ou constante da classe
+ ### Encapsulamento
+ - Modificadores: public, private, pakage.
+ - Usar o método privado apenas quando não for necessário em outras classes, ou para alterar uma variáveil privada.
+ ### Atributos estáticos
+ - Um atributo que será igual para qualquer objeto da classe.
+ - public static int qtd;
+
 
 
 

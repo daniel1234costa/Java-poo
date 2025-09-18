@@ -1,4 +1,4 @@
-package javapoo.Lista02.Questão02;
+package javapoo.Lista02.Questão02Fatura;
 
 public class Fatura {
     int numeroIdentificacao;
