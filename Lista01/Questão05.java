@@ -10,7 +10,7 @@ public class Questão05 {
         do{
             System.out.println("Informe o Algarismo: ");
             numero = leitor.nextInt();
-        if (numero < 0 || numero > 999) {
+        if (numero < 100 || numero > 999) {
             System.out.println("Número inválido, digite novamente.");
         } else {
             unidade = numero % 10;
@@ -19,7 +19,7 @@ public class Questão05 {
             int formatoUcd = (unidade * 100) + (centena * 10) + dezena;
     System.out.println("Numero: " + numero + "  Formato UCD: " + formatoUcd);
            }
-        }while(numero < 0 || numero > 999);
+        }while(numero < 100 || numero > 999);
           
         leitor.close();
     }

@@ -9,7 +9,7 @@ System.out.printf("Informe o %dº numero:  ", cont);
 num = leitor.nextDouble();
 menornum = num;
 for(int i = 0; i < 2; i++){
-    System.out.printf(" \nInforme o %dº numero: ", cont++);
+    System.out.printf(" \nInforme o %dº numero: ", ++cont);
     num = leitor.nextDouble();
     if(num < menornum){
         menornum = num;
