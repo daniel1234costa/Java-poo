@@ -7,8 +7,7 @@ public class Questão22{
         n = leitor.nextInt();
         System.out.println("Informe o x : ");
         x = leitor.nextInt();
-        int result  = polinomio(n, x, leitor);
-        System.out.printf("O polinomio informado resulta em: %d ", result);
+        System.out.printf("O polinomio informado resulta em: %d ", polinomio(n, x, leitor));
 
 
         

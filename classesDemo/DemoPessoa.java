@@ -1,6 +1,6 @@
-package javapoo.classesDemo;
+package javapoo.classesdemo;
 
-import javapoo.Classes.Pessoa;
+import javapoo.classes.Pessoa;
 
 public class DemoPessoa {
     public static void main (String[] args){

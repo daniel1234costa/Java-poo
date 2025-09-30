@@ -36,6 +36,17 @@ usamos o Scanner *leitor = new Scanner(System.in);*
  - Um atributo que será igual para qualquer objeto da classe.
  - public static int qtd;
 
+ # Unidade 2
+
+### for aprimorado 
+- sintaxe : 
+
+for (parametro; array){
+    var =+ parametro;
+}
+
+ps - o array do for não é uma referência a o array original.
+
 
 
 

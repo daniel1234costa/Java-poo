@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class Questão21 {
     public static void main(String[] args){
         Scanner leitor = new Scanner(System.in);
-        int num;
+        int num, divisor = 2;
         System.out.println("Informe um número para saber se é primo");
         num = leitor.nextInt();
-        if(numeroPrimo(num,2)){
+        if(numeroPrimo(num,divisor)){
             System.out.printf("%d é um numero primo", num);
         }
          else{

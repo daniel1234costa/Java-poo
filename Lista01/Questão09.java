@@ -8,7 +8,7 @@ public class Questão09 {
                 naipe = leitor.nextInt();
 
 
-             }while(naipe != 1 && naipe != 2 && naipe != 3 && naipe!= 4);
+             }while(naipe < 1 || naipe > 4);
              do {
                 System.out.println("Informe um número entre 1 e 13 ");
                 numero = leitor.nextInt();
@@ -51,13 +51,13 @@ public class Questão09 {
                 System.out.println("Sua carta é um dez de");
                 break;
                  case 11:
-                System.out.println("Sua carta é um onze de");
+                System.out.println("Sua carta é um valete de");
                 break;
                  case 12:
-                System.out.println("Sua carta é um doze de");
+                System.out.println("Sua carta é uma dama de");
                 break;
                  case 13:
-                System.out.println("Sua carta é um treze de");
+                System.out.println("Sua carta é um rei de");
                 break;
                 default:
                 System.out.println("numero invalido");

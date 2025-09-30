@@ -12,14 +12,16 @@ public class Questão05 {
             numero = leitor.nextInt();
         if (numero < 100 || numero > 999) {
             System.out.println("Número inválido, digite novamente.");
-        } else {
-            unidade = numero % 10;
-            dezena = (numero / 10) % 10;
-            centena = (numero / 100) % 10;
-            int formatoUcd = (unidade * 100) + (centena * 10) + dezena;
-    System.out.println("Numero: " + numero + "  Formato UCD: " + formatoUcd);
-           }
+        }
+           
         }while(numero < 100 || numero > 999);
+
+          unidade = numero % 10;
+          dezena = (numero / 10) % 10;
+          centena = (numero / 100) % 10;
+          int formatoUcd = (unidade * 100) + (centena * 10) + dezena;
+          
+    System.out.println("Numero: " + numero + "  Formato UCD: " + formatoUcd);
           
         leitor.close();
     }

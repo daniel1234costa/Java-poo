@@ -13,7 +13,7 @@ public class Questão03 {
         secante = 1/cosseno;
         cossecante = 1/seno;
         cotangente = 1/tangente;
-        System.out.printf("O angulo informado %.2fº graus equivale a %.2f em radiano e temos o seno: %.2f cosseno: %.2f tangente: %.2f secante: %.2f cotangente: %.2f cossecante: %.2f  ", angulo, radiano, seno, cosseno, tangente, secante, cotangente, cossecante);
+        System.out.printf("O angulo informado %.2fº graus equivale a %.2f em radiano \n  Seno: %.2f cosseno: %.2f tangente: %.2f secante: %.2f cotangente: %.2f cossecante: %.2f  ", angulo, radiano, seno, cosseno, tangente, secante, cotangente, cossecante);
         leitor.close();
         
 

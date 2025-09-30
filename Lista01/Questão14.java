@@ -13,7 +13,7 @@ public class Questão14 {
              System.out.println("O número deve ser > 0 ");
          }
          else if(num  == 1){
-             System.out.print(" 0 ");
+             System.out.printf(" 0 ");
          }
          else {
              System.out.print("0  1  ");
