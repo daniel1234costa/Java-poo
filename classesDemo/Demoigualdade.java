@@ -1,6 +1,6 @@
-package javapoo.classesdemo;
+package javapoo.classesDemo;
 
-import javapoo.classes.igualdade;
+import javapoo.Classes.igualdade;
 
 public class Demoigualdade {
     public static void main(String [] args){

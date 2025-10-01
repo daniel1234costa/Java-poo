@@ -1,4 +1,4 @@
-package javapoo.classes;
+package javapoo.Classes;
 
 public class RegistroAcademico {
     String nome;

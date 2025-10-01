@@ -1,4 +1,4 @@
-package javapoo.classes;
+package javapoo.Classes;
 
 public class Pessoa {
     private String nome;

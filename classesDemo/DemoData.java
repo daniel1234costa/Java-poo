@@ -1,5 +1,5 @@
-package javapoo.classesdemo;
-import javapoo.classes.Data;
+package javapoo.classesDemo;
+import javapoo.Classes.Data;
 
 public class DemoData {
   public static void main(String[] args) {

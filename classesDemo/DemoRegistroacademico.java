@@ -1,6 +1,6 @@
-package javapoo.classesdemo;
+package javapoo.classesDemo;
 
-import javapoo.classes.*;
+import javapoo.Classes.*;
 
 public class DemoRegistroacademico {
     public static void main (String[] args){
