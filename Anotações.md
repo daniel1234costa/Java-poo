@@ -104,4 +104,4 @@ O array usado no for não é referência ao original.
   ArrayList<String> list;
 
 
-  ![Metodos uteis](![](image.png))
+  ![Metodos uteis](![alt text](image.png))
