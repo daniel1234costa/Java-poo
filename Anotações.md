@@ -102,4 +102,6 @@ O array usado no for não é referência ao original.
 - podem ser alterar dinamicamente seu tamanho para acomodar mais elementos
 - com o espaço reservado <T> podemos usar para armazenar qualquer tipo de dados ex: 
   ArrayList<String> list;
-  ![Texto Alternativo](![alt text](image.png))
+
+
+  [Metodos uteis](!(image.png))
