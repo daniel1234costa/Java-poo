@@ -103,5 +103,14 @@ O array usado no for não é referência ao original.
 - com o espaço reservado <T> podemos usar para armazenar qualquer tipo de dados ex: 
   ArrayList<String> list;
 
-
   ![Metodos uteis](![alt text](image.png))
+
+- inicializando um ArrayList:
+ArrayList<String> itens = new ArrayList<String>();
+ArrayList<String> itens = new ArrayList<>();
+
+#### Reuso
+- delegação ou composição:
+Temos um objeto de uma classe dentro de outra classe, assim ela herda os atributos da outra classe
+podemos criar ou usar objetos já criados.
+
