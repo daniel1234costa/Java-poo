@@ -1,0 +1,31 @@
+package javapoo.Lista04.Questão05;
+
+public class Administrativo extends Assistente{
+    private String turno;
+    private double adicional;
+
+    public Administrativo(String nome, double salario, int matricula, String turno, double adicional){
+        super(nome, salario, matricula);
+        this.turno = turno;
+        this.adicional = adicional;
+    }
+
+    public double ganhoAnual(){
+        if(turno == "noite"){
+            return (getSalario() + adicional) * 12 + getSalario();
+        }
+        else {
+            return getSalario() * 12 + getSalario();
+        }
+
+    }
+    public String toString(){
+        return"\n[Administrativo]"+super.toString()+"\nTurno: "+turno+"\nAdicional noturno: "+adicional;
+    }
+        
+
+    }
+    
+
+    
+

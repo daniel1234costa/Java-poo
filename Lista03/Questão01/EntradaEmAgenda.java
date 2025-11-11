@@ -12,11 +12,8 @@ public class EntradaEmAgenda{
     }
 
     public String toString(){
-        String agenda;
-        agenda = "Data: "+dia+"/"+mes+"/"+ano+"\n";
-        agenda += "Horário"+hora+"\n";
-        agenda += "Assunto"+assunto+"\n";
-        return agenda;
+         return "Data: "+dia+"/"+mes+"/"+ano+"\n" + "Horário: "+hora+"\n"+  "Assunto "+assunto+"\n";
+    
     }
     public boolean ehNoDia (int dia, int mes, int ano){
         if(this.dia == dia && this.mes == mes && this.ano == ano){

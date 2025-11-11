@@ -1,0 +1,2 @@
+1. Explique por que não podemos ter construtores declarados com a palavra-chave abstract.
+Porque os construtores são responsáveis por inicializar instâncias de classes, e declarando um construtor como abstrato ele não poderia ter implementação na classe base, assim não faria sentido já que construtores devem ter implementações concretas para criar instâncias de classes.
